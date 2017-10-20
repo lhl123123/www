@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu, body header .toubu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu a, body header .toubu a {
+  text-align: center;
+  margin: 0.5rem;
+  color: #999999;
+  text-decoration: none;
+}
+html header .toubu a p, body header .toubu a p {
+  color: #999;
+}
+html header img, body header img {
+  height: 100%;
+}
+html header p, body header p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 100;
+}
+html section, body section {
+  width: 100%;
+  padding-top: 0.1rem;
+  background: #f4f4f4;
+}
+html section .sec, body section .sec {
+  margin: 0 auto;
+  width: 95%;
+  position: relative;
+  margin-top: 0.4rem;
+}
+html section .sec .pp, body section .sec .pp {
+  text-align: center;
+  position: absolute;
+  top: 0.2rem;
+  left: -0.2rem;
+  display: block;
+  width: 2.5rem;
+  line-height: 0.8rem;
+  height: 0.8rem;
+  font-size: 0.5rem;
+  font-weight: 100;
+  background: #39C894;
+  color: #FFFFFF;
+}
+html section .sec img, body section .sec img {
+  width: 100%;
+  height: 5.5rem;
+}
+html section .sec .tc, body section .sec .tc {
+  width: 100%;
+  height: 2.25rem;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html section .sec .tc .dd p, body section .sec .tc .dd p {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+html section .sec .tc .dd p span, body section .sec .tc .dd p span {
+  color: #FF4351;
+}
+html section .sec .tc .yy, body section .sec .tc .yy {
+  text-align: center;
+  width: 4rem;
+  font-size: 0.55rem;
+  font-weight: 100;
+  height: 1.7rem;
+  color: #FFFFFF;
+  background: #FF4351;
+  line-height: 1.7rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+html #p, body #p {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.6rem;
+  color: #333;
+}
+html .zhongjian, body .zhongjian {
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html .p, body .p {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .p .icon-hot-line, body .p .icon-hot-line {
+  color: #39C894;
+  font-size: 0.6rem;
+}
+html .p .fuwu, body .p .fuwu {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+html .cu, body .cu {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+html .cu ul, body .cu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .cu ul li, body .cu ul li {
+  color: #333;
+  font-size: 0.5rem;
+}
+html .cu ul li:hover, body .cu ul li:hover {
+  color: #39C894;
+}
+html #X, body #X {
+  width: 100%;
+  height: 2.65rem;
+  background: #000;
+  opacity: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+html #X .img1, body #X .img1 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+html #X .img2, body #X .img2 {
+  width: 9rem;
+}
+html #X button, body #X button {
+  display: block;
+  width: 4.375rem;
+  height: 1.25rem;
+  font-size: 0.6rem;
+  color: #FFFFFF;
+  background: #FEB505;
+  border: 0;
+  border-radius: 1rem;
+}
+
+/*# sourceMappingURL=fanan.css.map */

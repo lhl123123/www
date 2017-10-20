@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        height:2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .toubu{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                text-align: center;
+                margin: 0.5rem;
+                color:#999999;
+                text-decoration: none;
+                p{
+                    color: #999;
+                }
+            }
+        }
+        img{
+            height: 100%;
+        }
+        p{
+            font-size:0.75rem;
+            color: #000;
+            font-weight: 100;
+        } 
+    }
+    section{
+        width: 100%;
+        padding-top: 0.1rem;
+        background: rgb(244,244,244);
+        .sec{
+            margin: 0 auto;
+            width:95%;
+            position: relative;
+            margin-top: 0.4rem;
+            .pp{
+                text-align: center;
+                position: absolute;
+                top: 0.2rem;
+                left:-0.2rem;
+                display: block;
+                width: 2.5rem;
+                line-height: 0.8rem;
+                height:0.8rem;
+                font-size: 0.5rem;
+                font-weight: 100;
+                background: #39C894;
+                color: #FFFFFF;
+            }
+            img{
+            width: 100%;
+            height:5.5rem;
+            }
+            .tc{
+                width: 100%;
+                height:2.25rem;
+                background: #FFFFFF;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .dd{
+                    p{
+                        font-size: 0.7rem;
+                        font-weight: 100;
+                        span{
+                            color: #FF4351;
+                        }
+                    }
+                }
+                .yy{
+                    text-align: center;
+                    width: 4rem;
+                    font-size: 0.55rem;
+                    font-weight: 100;
+                    height:1.7rem;
+                    color: #FFFFFF;
+                    background: #FF4351;
+                    line-height: 1.7rem;
+                    border-top-left-radius: 1rem;
+                    border-bottom-left-radius:1rem ;
+                }
+            }
+        }
+    }
+    #p{
+          font-weight: 100;
+          text-align: center;
+          margin-top: 0.9rem;
+          font-size: 0.6rem;
+          color: #333;
+      }
+      .zhongjian{
+        width:100%;
+        height:0.4rem;
+        background: rgb(244,244,244);
+    }
+      .p{
+          margin-top: 0.9rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .icon-hot-line{
+              color: #39C894;
+              font-size: 0.6rem;
+          }
+          .fuwu{
+              font-size: 0.6rem;
+              font-weight: 100;
+          }
+      }
+      .cu{
+          margin-top: 0.5rem;
+          width: 100%;
+          ul{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              li{
+                  color: #333;
+                  font-size: 0.5rem;
+              }
+              li:hover{
+                  color: #39C894;
+              }
+          }
+      }
+      #X{
+          width: 100%;
+          height: 2.65rem;
+          background: #000;
+          opacity: 80%;
+          display: flex;
+          justify-content: space-between;
+          .img1{
+              width:1.3rem;
+              height: 1.3rem;
+          }
+          .img2{
+              width: 9rem;
+          }
+          button{
+              display: block;
+              width: 4.375rem;
+              height: 1.25rem;
+              font-size: 0.6rem;
+              color: #FFFFFF;
+              background: #FEB505;
+              border: 0;
+              border-radius:1rem;
+          }
+      }
+}

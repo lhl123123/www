@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%; }
+  html header, body header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    html header .toubu, body header .toubu {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      html header .toubu a, body header .toubu a {
+        text-align: center;
+        margin: 1rem;
+        color: #999999;
+        text-decoration: none; }
+        html header .toubu a p, body header .toubu a p {
+          color: #999; }
+    html header img, body header img {
+      height: 100%; }
+  html banner, body banner {
+    width: 100%; }
+    html banner img, body banner img {
+      width: 100%; }
+  html section, body section {
+    width: 100%; }
+    html section ul, body section ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2rem; }
+      html section ul li, body section ul li {
+        text-align: center;
+        width: 5rem;
+        line-height: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        position: relative; }
+      html section ul span, body section ul span {
+        position: absolute;
+        width: 100%;
+        height: 2rem;
+        top: 3.5rem;
+        left: 0rem; }
+      html section ul .icon, body section ul .icon {
+        font-size: 3.5rem;
+        color: #FFFFFF; }
+      html section ul .icon-case, body section ul .icon-case {
+        background: #39c894; }
+      html section ul .icon-pics, body section ul .icon-pics {
+        background: #feb505; }
+      html section ul .icon-designer, body section ul .icon-designer {
+        background: #eed215; }
+      html section ul .icon-construction-site, body section ul .icon-construction-site {
+        background: #00b2b2; }
+      html section ul .icon-decorate, body section ul .icon-decorate {
+        background: #1b9af7; }
+      html section ul .icon-loans, body section ul .icon-loans {
+        background: #7b72e9; }
+      html section ul .icon-pencle, body section ul .icon-pencle {
+        background: #ff4351; }
+      html section ul .icon-ten, body section ul .icon-ten {
+        background: #fe8864; }
+      html section ul .icon, body section ul .icon {
+        border-radius: 50%; }
+    html section .zhong, body section .zhong {
+      width: 100%;
+      height: 0.9rem;
+      background: #f4f4f4;
+      margin-top: 3rem; }
+    html section .quanwu, body section .quanwu {
+      margin-top: 1.6rem;
+      width: 90%;
+      height: 2.5rem;
+      display: flex;
+      justify-content: space-around; }
+      html section .quanwu .zhuanxiu, body section .quanwu .zhuanxiu {
+        display: inline-block;
+        width: 0.25rem;
+        height: 100%;
+        background: #2bb281; }
+      html section .quanwu span, body section .quanwu span {
+        font-weight: 100;
+        font-size: 1.8rem;
+        color: #000; }
+      html section .quanwu ul, body section .quanwu ul {
+        width: 100%;
+        height: 100%;
+        margin-top: 0.1rem; }
+        html section .quanwu ul li, body section .quanwu ul li {
+          font-size: 1.2rem;
+          width: 100%;
+          color: #999; }
+    html section .tu, body section .tu {
+      margin-top: 1.6rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html section .tu img, body section .tu img {
+        width: 90%; }
+    html section .zen, body section .zen {
+      margin-top: 1.8rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html section .zen .biao .icon, body section .zen .biao .icon {
+        background: #FFFFFF;
+        color: #39c894;
+        border-radius: 50%; }
+      html section .zen .biao span, body section .zen .biao span {
+        font-size: 1.4rem;
+        color: #000; }
+    html section .zhon, body section .zhon {
+      width: 100%;
+      height: 0.9rem;
+      background: #f4f4f4;
+      margin-top: 1.8rem; }
+    html section input, body section input {
+      display: block;
+      margin: 0 auto;
+      width: 29.2rem;
+      height: 3.5rem;
+      border: 1px solid #eaeaea;
+      border-radius: 0.5rem;
+      font-size: 1.4rem;
+      color: #cacaca; }
+    html section input:nth-of-type(4), body section input:nth-of-type(4) {
+      background: #FEB505;
+      color: #FFFFFF;
+      font-size: 1.8rem; }
+    html section .xiaoguo, body section .xiaoguo {
+      margin: 1.5rem;
+      width: 30%;
+      height: 2.5rem;
+      display: flex;
+      justify-content: space-around; }
+      html section .xiaoguo .zhuanxiu, body section .xiaoguo .zhuanxiu {
+        display: inline-block;
+        width: 0.25rem;
+        height: 100%;
+        background: #2bb281; }
+      html section .xiaoguo span, body section .xiaoguo span {
+        font-weight: 100;
+        font-size: 1.8rem;
+        color: #000; }
+    html section .shejishi ul, body section .shejishi ul {
+      margin-top: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html section .shejishi ul li, body section .shejishi ul li {
+        width: 100%;
+        height: 100%; }
+        html section .shejishi ul li img, body section .shejishi ul li img {
+          width: 90%;
+          height: 70%; }
+        html section .shejishi ul li p, body section .shejishi ul li p {
+          font-size: 1.8rem;
+          color: #000;
+          font-weight: 100;
+          margin-top: -2rem; }
+        html section .shejishi ul li button, body section .shejishi ul li button {
+          width: 6rem;
+          height: 2.5rem;
+          background: #39C894;
+          color: #FFFFFF;
+          border: 0px;
+          border-radius: 0.3rem;
+          font-size: 2rem; }
+    html section .dade, body section .dade {
+      width: 95%;
+      margin: 0 auto;
+      height: 3.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html section .dade .xiaode, body section .dade .xiaode {
+        width: 50%;
+        height: 100%;
+        line-height: 3.5rem;
+        text-align: center;
+        border: 1px solid #EAEAEA; }
+        html section .dade .xiaode span, body section .dade .xiaode span {
+          color: #39C894;
+          font-size: 1.4rem; }
+    html section #app, body section #app {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      html section #app img, body section #app img {
+        width: 90%;
+        height: 100%; }
+    html section .woshi, body section .woshi {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      html section .woshi img, body section .woshi img {
+        margin: 0.1rem;
+        width: 50%;
+        height: 100%; }
+    html section .nimu, body section .nimu {
+      width: 50%;
+      height: 3rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html section .nimu span:nth-of-type(2), body section .nimu span:nth-of-type(2) {
+        border-radius: 0.3rem;
+        color: #FFFFFF;
+        background: #39C894; }
+      html section .nimu span, body section .nimu span {
+        font-size: 1.4rem; }
+    html section .gonglue, body section .gonglue {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem; }
+      html section .gonglue img, body section .gonglue img {
+        width: 30%;
+        height: 30%; }
+      html section .gonglue .yan, body section .gonglue .yan {
+        width: 65%;
+        height: 8rem; }
+        html section .gonglue .yan h3, body section .gonglue .yan h3 {
+          font-size: 2rem; }
+        html section .gonglue .yan .gang, body section .gonglue .yan .gang {
+          width: 95%;
+          display: flex;
+          justify-content: space-between; }
+          html section .gonglue .yan .gang p, html section .gonglue .yan .gang span, body section .gonglue .yan .gang p, body section .gonglue .yan .gang span {
+            color: #999; }
+    html section #p, body section #p {
+      font-weight: 100;
+      text-align: center;
+      margin-top: 1.8rem;
+      font-size: 1.55rem;
+      color: #333; }
+    html section .p, body section .p {
+      margin-top: 1.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html section .p .icon-hot-line, body section .p .icon-hot-line {
+        color: #39C894;
+        font-size: 1.8rem; }
+      html section .p .fuwu, body section .p .fuwu {
+        font-size: 1.4rem;
+        font-weight: 100; }
+    html section .cu, body section .cu {
+      margin-top: -2rem;
+      width: 100%; }
+      html section .cu ul, body section .cu ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        html section .cu ul li, body section .cu ul li {
+          color: #333;
+          font-size: 1.5rem; }
+        html section .cu ul li:hover, body section .cu ul li:hover {
+          color: #39C894; }
+    html section .X, body section .X {
+      width: 100%;
+      height: 5.3rem;
+      background: #000;
+      opacity: 80%;
+      display: flex;
+      justify-content: space-between; }
+      html section .X .img1, body section .X .img1 {
+        width: 3.5rem;
+        height: 3rem; }
+      html section .X .img2, body section .X .img2 {
+        width: 18rem; }
+      html section .X button, body section .X button {
+        display: block;
+        width: 8.75rem;
+        height: 2.5rem;
+        font-size: 1.4rem;
+        color: #FFFFFF;
+        background: #FEB505;
+        border: 0;
+        border-radius: 2rem; }
+
+/*# sourceMappingURL=%E9%A6%96%E9%A1%B5.css.map */

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu, body header .toubu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu a, body header .toubu a {
+  text-align: center;
+  margin: 0.5rem;
+  color: #999999;
+  text-decoration: none;
+}
+html header .toubu a p, body header .toubu a p {
+  color: #999;
+}
+html header img, body header img {
+  height: 100%;
+}
+html header p, body header p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 100;
+}
+html .tm, body .tm {
+  width: 100%;
+  height: 10rem;
+  background: black;
+  opacity: 0.5;
+}
+html section, body section {
+  width: 100%;
+  background: #F4F4F4;
+}
+html section .tet, body section .tet {
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+}
+html section .tet p, body section .tet p {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+html section .tet p span, body section .tet p span {
+  color: #39C894;
+}
+html section .wo, body section .wo {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+html section .wo ul, body section .wo ul {
+  width: 100%;
+  height: 1.5rem;
+  border: 1px solid #999;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html section .wo ul li, body section .wo ul li {
+  font-size: 0.7rem;
+}
+html .jp, body .jp {
+  width: 100%;
+  background: #d2d6da;
+  padding-top: 0.5rem;
+}
+html .jp .diy, body .jp .diy {
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .jp .diy div, body .jp .diy div {
+  text-align: center;
+  width: 1.3rem;
+  height: 100%;
+  line-height: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  font-size: 0.768rem;
+}
+html .jp .die, body .jp .die {
+  margin: 0 auto;
+  width: 90%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+html .jp .die div, body .jp .die div {
+  text-align: center;
+  width: 1rem;
+  height: 100%;
+  line-height: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  font-size: 0.768rem;
+}
+html .jp .dis, body .jp .dis {
+  margin: 0 auto;
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+html .jp .dis button, body .jp .dis button {
+  background: #adb4bc;
+  color: #000000;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0;
+  border-radius: 0.2rem;
+}
+html .jp .dis div, body .jp .dis div {
+  text-align: center;
+  width: 1rem;
+  height: 100%;
+  line-height: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  font-size: 0.768rem;
+}
+html .jp .disi, body .jp .disi {
+  margin: 0 auto;
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+html .jp .disi button, body .jp .disi button {
+  background: #adb4bc;
+  color: #000000;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0;
+  border-radius: 0.2rem;
+}
+html .jp .disi .yi, body .jp .disi .yi {
+  font-size: 0.768rem;
+}
+html .jp .disi .hh, body .jp .disi .hh {
+  width: 4rem;
+  font-size: 0.768rem;
+  color: #000000;
+}
+html .jp .disi .kg, body .jp .disi .kg {
+  width: 6rem;
+  font-size: 0.768rem;
+  color: #000000;
+}
+html .jp .disi div, body .jp .disi div {
+  text-align: center;
+  width: 1rem;
+  height: 100%;
+  line-height: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  font-size: 0.768rem;
+}
+html .ys, body .ys {
+  width: 100%;
+  height: 0.2rem;
+  background: #d2d6da;
+}
+
+/*# sourceMappingURL=pjwdl.css.map */

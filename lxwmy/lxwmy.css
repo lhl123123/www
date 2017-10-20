@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu, body header .toubu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu a, body header .toubu a {
+  text-align: center;
+  margin: 0.5rem;
+  color: #999999;
+  text-decoration: none;
+}
+html header .toubu a p, body header .toubu a p {
+  color: #999;
+}
+html header img, body header img {
+  height: 100%;
+}
+html header p, body header p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 100;
+}
+html .img, body .img {
+  width: 100%;
+  height: 8rem;
+}
+html .img img, body .img img {
+  width: 100%;
+  height: 100%;
+}
+html #ul, body #ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+html #ul li, body #ul li {
+  text-align: center;
+  width: 2.13rem;
+  line-height: 2.13rem;
+  height: 2.13rem;
+  border-radius: 50%;
+}
+html #ul span, body #ul span {
+  width: 100%;
+  height: 1rem;
+}
+html #ul .icon, body #ul .icon {
+  background: #39C894;
+  font-size: 1.23rem;
+  color: #FFFFFF;
+  border-radius: 50%;
+}
+html .ewm, body .ewm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 8rem;
+  line-height: 8rem;
+  background: #F4F4F4;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+html .ewm img, body .ewm img {
+  width: 5rem;
+  height: 5rem;
+}
+html #p, body #p {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.6rem;
+  color: #333;
+}
+html .cu, body .cu {
+  margin-top: 0.7rem;
+  width: 100%;
+}
+html .cu ul, body .cu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .cu ul li, body .cu ul li {
+  color: #333;
+  font-size: 0.5rem;
+}
+html .cu ul li:hover, body .cu ul li:hover {
+  color: #39C894;
+}
+html .zhongjian, body .zhongjian {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html .p1, body .p1 {
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: gray;
+  font-size: 0.6rem;
+  border: 1px solid #F4F4F4;
+  margin-top: 0.5rem;
+}
+html .p, body .p {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .p .icon-hot-line, body .p .icon-hot-line {
+  color: #39C894;
+  font-size: 0.6rem;
+}
+html .p .fuwu, body .p .fuwu {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=lxwmy.css.map */

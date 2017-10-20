@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        height:2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .toubu{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                text-align: center;
+                margin: 0.5rem;
+                color:#999999;
+                text-decoration: none;
+                p{
+                    color: #999;
+                }
+            }
+        }
+        img{
+            height: 100%;
+        }
+        p{
+            font-size:0.75rem;
+            color: #000;
+            font-weight: 100;
+        } 
+    }
+        .tm{
+            width: 100%;
+            height: 10rem;
+            background: black;
+            opacity: 0.5;
+        }
+    section{
+        width: 100%;
+        background: #F4F4F4;
+        .pl{
+            margin: 0 auto;
+            width: 90%;
+            height: 1.28rem;
+            line-height: 1.28rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0.5rem;
+            button{
+                width: 2.816rem;
+                height: 100%;
+                color: #FFFFFF;
+                background: #39C894;
+                font-size: 0.59rem;
+                border:0;
+                border-radius: 0.3rem;
+            }
+            p{
+                font-size: 0.768rem;
+                font-weight: 100;
+            }
+            button:hover{
+                background: #F4F4F4;
+                color: #000000;
+            }
+        }
+        .tet{
+            margin: 0 auto;
+            width: 90%;
+            height: 3rem;
+            background: #FFFFFF;
+            margin-top: 0.5rem;
+        }
+        .wo{
+            width: 100%;
+            margin-top: 0.5rem;
+            ul{
+                width: 100%;
+                height:1.5rem;
+                border: 1px solid #999;
+                border-left: 0;
+                border-bottom: 0;
+                border-right: 0;
+                background: #FFFFFF;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                    font-size: 0.7rem;
+                }
+             }
+        }
+    }
+    .jp{
+        width: 100%;
+        background: #d2d6da;;
+        padding-top: 0.5rem;
+        .diy{
+            width:100%;
+            height:1.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            div{
+                text-align: center;
+                width: 1.3rem;
+                height:100%;
+                line-height: 1.5rem;
+                background: #FFFFFF;
+                border-radius: 0.2rem;
+                font-size: 0.768rem;
+            }
+        }
+        .die{
+            margin: 0 auto;
+            width:90%;
+            height:1.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 0.5rem;
+            div{
+                text-align: center;
+                width: 1rem;
+                height:100%;
+                line-height: 1.5rem;
+                background: #FFFFFF;
+                border-radius: 0.2rem;
+                font-size: 0.768rem;
+            }
+        }
+        .dis{
+            margin: 0 auto;
+            width:100%;
+            height:1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+            button{
+                background: rgb(173,180,188);
+                color: #000000;
+                width:1.5rem;
+                height: 1.5rem;
+                border:0;
+                border-radius: 0.2rem;
+            }
+            div{
+                text-align: center;
+                width: 1rem;
+                height:100%;
+                line-height: 1.5rem;
+                background: #FFFFFF;
+                border-radius: 0.2rem;
+                font-size: 0.768rem;
+            }
+        }
+        .disi{
+            margin: 0 auto;
+            width:100%;
+            height:1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+            button{
+                background: rgb(173,180,188);
+                color: #000000;
+                width:1.5rem;
+                height: 1.5rem;
+                border:0;
+                border-radius: 0.2rem;
+            }
+            .yi{
+                font-size: 0.768rem;
+            }
+            .hh{
+                width: 4rem;
+                font-size: 0.768rem;
+                color:#000000;
+            }
+            .kg{
+                width:6rem;
+                font-size: 0.768rem;
+                color:#000000;
+            }
+            div{
+                text-align: center;
+                width: 1rem;
+                height:100%;
+                line-height: 1.5rem;
+                background: #FFFFFF;
+                border-radius: 0.2rem;
+                font-size: 0.768rem;
+            }
+        }
+    }
+    .ys{
+            width: 100%;
+            height:0.2rem;
+            background: #d2d6da;;
+        }
+}

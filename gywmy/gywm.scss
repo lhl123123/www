@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        height:2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .toubu{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                text-align: center;
+                margin: 0.5rem;
+                color:#999999;
+                text-decoration: none;
+                p{
+                    color: #999;
+                }
+            }
+        }
+        img{
+            height: 100%;
+        }
+        p{
+            font-size:0.75rem;
+            color: #000;
+            font-weight: 100;
+        } 
+    }
+    .img{
+        width: 100%;
+        height: 5rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        .san{
+            margin: 0 auto;
+            width: 95%;
+            border: 1px solid #F4F4F4;
+            display: flex;
+            justify-content: center;
+            .xx{
+                width:0.5rem;
+                height: 0.5rem;
+                border-width: 0.2rem;
+                border: 1px solid #39C894;
+            }
+        }
+        h1{
+            height: 1.8rem;
+            line-height: 1.8rem;
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 100;
+        }
+        #p{
+          font-weight: 100;
+          text-align: center;
+          font-size: 0.6rem;
+          color: #333;
+      }
+      .tp{
+          width: 100%;
+          height:15rem;
+          background: #F4F4F4;
+          img{
+              width: 100%;
+              height: 100%;
+          }
+      }
+      .p{
+          margin-top: 0.9rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .icon-hot-line{
+              color: #39C894;
+              font-size: 0.6rem;
+          }
+          .fuwu{
+              font-size: 0.6rem;
+              font-weight: 100;
+          }
+      }
+      .cu{
+          margin-top: 0.7rem;
+          width: 100%;
+          ul{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              li{
+                  color: #333;
+                  font-size: 0.5rem;
+              }
+              li:hover{
+                  color: #39C894;
+              }
+          }
+      }
+      .zhongjian{
+        margin-top: 3.5rem;
+        width:100%;
+        height:0.4rem;
+        background: rgb(244,244,244);
+    }
+    .p1{
+        width: 100%;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: gray;
+        font-size: 0.6rem;
+        border: 1px solid #F4F4F4;
+        margin-top: 0.5rem;
+    }
+}

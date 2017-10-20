@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2.585rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html header div, body header div {
+  height: 0.96rem;
+}
+html header p, body header p {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+html header a, body header a {
+  text-align: center;
+}
+html section, body section {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+html section img, body section img {
+  margin-top: 2rem;
+  width: 100%;
+  height: 40%;
+}
+html section .xian, body section .xian {
+  width: 100%;
+  height: 0.1rem;
+  background: #39C894;
+  margin-top: 0.98rem;
+}
+html section .xian ul, body section .xian ul {
+  width: 100%;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+html section .xian ul li, body section .xian ul li {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: black;
+  border: 1px solid #39C894;
+  border-radius: 50%;
+  margin-top: -0.4rem;
+}
+html section .xian ul li p, body section .xian ul li p {
+  text-align: center;
+  margin-top: 1rem;
+  width: 2rem;
+  height: 2rem;
+  color: #39C894;
+}
+html section .sheji, body section .sheji {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 1.5rem;
+}
+html section .sheji p, body section .sheji p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+}
+html #p, body #p {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.6rem;
+  color: #333;
+}
+html .p, body .p {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .p .icon-hot-line, body .p .icon-hot-line {
+  color: #39C894;
+  font-size: 0.6rem;
+}
+html .p .fuwu, body .p .fuwu {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+html .cu, body .cu {
+  width: 100%;
+}
+html .cu ul, body .cu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .cu ul li, body .cu ul li {
+  color: #333;
+  font-size: 0.5rem;
+}
+html .cu ul li:hover, body .cu ul li:hover {
+  color: #39C894;
+}
+html .zhongjian, body .zhongjian {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html .yuyue, body .yuyue {
+  width: 100%;
+  height: 2.13rem;
+  background: #FF4351;
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .yuyue .icon, body .yuyue .icon {
+  font-size: 1.19rem;
+  color: #FFFFFF;
+}
+html .yuyue .miaf, body .yuyue .miaf {
+  color: #FFFFFF;
+  font-size: 0.768rem;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=xiangqing.css.map */

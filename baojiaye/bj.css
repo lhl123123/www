@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu, body header .toubu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu a, body header .toubu a {
+  text-align: center;
+  margin: 0.5rem;
+  color: #999999;
+  text-decoration: none;
+}
+html header .toubu a p, body header .toubu a p {
+  color: #999;
+}
+html header img, body header img {
+  height: 100%;
+}
+html header p, body header p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 100;
+}
+html .img, body .img {
+  width: 100%;
+  height: 5rem;
+}
+html .img img, body .img img {
+  width: 100%;
+  height: 100%;
+}
+html section, body section {
+  width: 100%;
+}
+html section h1, body section h1 {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.768rem;
+  font-weight: 100;
+  text-align: center;
+}
+html section .san, body section .san {
+  margin: 0 auto;
+  width: 95%;
+  border: 1px solid #F4F4F4;
+  display: flex;
+  justify-content: center;
+}
+html section .san .xx, body section .san .xx {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-width: 0.2rem;
+  border: 1px solid #39C894;
+}
+html section input, body section input {
+  border: 1px solid #F4F4F4;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 1.5rem;
+}
+html section .shi, body section .shi {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+html section .shi input, body section .shi input {
+  width: 45%;
+}
+html section .wei, body section .wei {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+html section .wei input, body section .wei input {
+  width: 30%;
+}
+html section .sq, body section .sq {
+  width: 90%;
+  margin: 0 auto;
+}
+html section .sq button, body section .sq button {
+  width: 100%;
+  height: 1.5rem;
+  background: #FEB505;
+  color: #FFFFFF;
+  font-size: 0.6rem;
+  font-weight: 100;
+  border: 0;
+}
+html section .xi, body section .xi {
+  margin: 0 auto;
+  width: 90%;
+  height: 7.5rem;
+  border: 1px dashed #39C894;
+}
+html section p, body section p {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+html section .jj, body section .jj {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  height: 1.5rem;
+  border: 1px solid #39C894;
+  background: #FFFFFF;
+  font-size: 0.6rem;
+  font-weight: 100;
+  color: #39C894;
+}
+html section .cp, body section .cp {
+  margin: 0 auto;
+  width: 95%;
+  height: 10rem;
+  margin-top: 0.5rem;
+}
+html section .cp .xl, body section .cp .xl {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html section .cp .xl .xide, body section .cp .xl .xide {
+  text-align: center;
+}
+html section .cp .xl .xide .icon, body section .cp .xl .xide .icon {
+  margin: 0 auto;
+  width: 2.13rem;
+  line-height: 2.13rem;
+  height: 2.13rem;
+  font-size: 1rem;
+  background: #39C894;
+  color: #FFFFFF;
+  border-radius: 50%;
+}
+html .zhongjian, body .zhongjian {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html #p, body #p {
+  font-weight: 100;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #333;
+}
+html .cu, body .cu {
+  margin-top: 0.7rem;
+  width: 100%;
+}
+html .cu ul, body .cu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .cu ul li, body .cu ul li {
+  color: #333;
+  font-size: 0.5rem;
+}
+html .cu ul li:hover, body .cu ul li:hover {
+  color: #39C894;
+}
+html .zhongjian, body .zhongjian {
+  margin-top: 5rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html .p1, body .p1 {
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: gray;
+  font-size: 0.6rem;
+  border: 1px solid #F4F4F4;
+  margin-top: 0.5rem;
+}
+html .p, body .p {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .p .icon-hot-line, body .p .icon-hot-line {
+  color: #39C894;
+  font-size: 0.6rem;
+}
+html .p .fuwu, body .p .fuwu {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=bj.css.map */

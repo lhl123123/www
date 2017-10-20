@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html header, body header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu, body header .toubu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .toubu a, body header .toubu a {
+  text-align: center;
+  margin: 0.5rem;
+  color: #999999;
+  text-decoration: none;
+}
+html header .toubu a p, body header .toubu a p {
+  color: #999;
+}
+html header img, body header img {
+  height: 100%;
+}
+html header p, body header p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 100;
+}
+html section .i_hqfs, body section .i_hqfs {
+  width: 100%;
+  height: 2.12rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html section .i_hqfs .i_hx, body section .i_hqfs .i_hx {
+  width: 4rem;
+  text-align: center;
+  line-height: 2.12rem;
+  border: 1px solid #F4F4F4;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+html section .i_hqfs .i_hx .hx, body section .i_hqfs .i_hx .hx {
+  font-size: 0.768rem;
+  color: #000;
+  font-weight: 100;
+}
+html section .i_hqfs .i_hx .icon, body section .i_hqfs .i_hx .icon {
+  width: 0.46rem;
+  height: 0.32ewm;
+  color: #999;
+}
+html section .i_hqfs .icon-search, body section .i_hqfs .icon-search {
+  text-align: center;
+  line-height: 2.12rem;
+  width: 2rem;
+  height: 2rem;
+  color: #39C894;
+}
+html section .zhongjian, body section .zhongjian {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html .chan, body .chan {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .chan img, body .chan img {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+html .chan .chong p, body .chan .chong p {
+  font-weight: 100;
+}
+html .chan .chong .ppp, body .chan .chong .ppp {
+  color: #999;
+}
+html .chan .chong .youxiu, body .chan .chong .youxiu {
+  display: flex;
+  justify-content: space-between;
+}
+html .chan .chong .youxiu .yyy, body .chan .chong .youxiu .yyy {
+  margin-left: 0.46rem;
+  background: #39C894;
+  color: #FFFFFF;
+}
+html .chan .chong .youxiu .qqq, body .chan .chong .youxiu .qqq {
+  color: #FEB505;
+}
+html .chan .chong .zuop, body .chan .chong .zuop {
+  display: flex;
+  justify-content: space-between;
+}
+html .chan .chong p, body .chan .chong p {
+  font-size: 0.6rem;
+}
+html hr, body hr {
+  margin: 0 auto;
+  width: 95%;
+  border: 1px solid #F4F4F4;
+}
+html .shang, body .shang {
+  margin: 0 auto;
+  width: 90%;
+  height: 1.74rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+html .shang button, body .shang button {
+  color: #FFFFFF;
+  width: 30%;
+  border: 0;
+  height: 100%;
+  background: #39C894;
+  font-size: 0.768rem;
+}
+html .shang button:nth-of-type(1), body .shang button:nth-of-type(1) {
+  background: #EAEAEA;
+  color: #000000;
+}
+html .shang div, body .shang div {
+  text-align: center;
+  width: 30%;
+  line-height: 1.74rem;
+  font-size: 1rem;
+  height: 100%;
+  background: #FFFFFF;
+  font-weight: 100;
+}
+html #p, body #p {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.6rem;
+  color: #333;
+}
+html .p, body .p {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .p .icon-hot-line, body .p .icon-hot-line {
+  color: #39C894;
+  font-size: 0.6rem;
+}
+html .p .fuwu, body .p .fuwu {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+html .cu, body .cu {
+  width: 100%;
+}
+html .cu ul, body .cu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .cu ul li, body .cu ul li {
+  color: #333;
+  font-size: 0.5rem;
+}
+html .cu ul li:hover, body .cu ul li:hover {
+  color: #39C894;
+}
+html .zhongjian, body .zhongjian {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #f4f4f4;
+}
+html #X, body #X {
+  width: 100%;
+  height: 2.65rem;
+  background: #000;
+  opacity: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+html #X .img1, body #X .img1 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+html #X .img2, body #X .img2 {
+  width: 9rem;
+}
+html #X button, body #X button {
+  display: block;
+  width: 4.375rem;
+  height: 1.25rem;
+  font-size: 0.6rem;
+  color: #FFFFFF;
+  background: #FEB505;
+  border: 0;
+  border-radius: 1rem;
+}
+
+/*# sourceMappingURL=shejishi.css.map */
